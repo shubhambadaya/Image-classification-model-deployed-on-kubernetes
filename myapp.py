@@ -27,7 +27,7 @@ def decode_img(image):
   img = tf.image.resize(img,[150,150])
   return np.expand_dims(img, axis=0)
 
-path = st.text_input('Enter Image URL to Classify.. ','https://storage.googleapis.com/image_classification_2021/Glacier-Argentina-South-America-blue-ice.JPEG')
+path = st.text_input('Enter Image URL to Classify.. ','https://images.unsplash.com/photo-1550695319-209e0e343dc9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80')
 if path is not None:
     content = requests.get(path).content
 
