@@ -31,5 +31,6 @@ The detail steps are
     1.While creating kubernetes cluster, make sure to create a standard cluster.Cluster with 1 machine will not work this code.
 
     2.Check if the file names and cluster location are consistent across the codes.
+<img width="1439" alt="Screenshot 2021-08-07 at 12 15 40 PM" src="https://user-images.githubusercontent.com/86912972/128591370-83ee487e-9d03-425b-a1fb-a69730a0b8bf.png">
 
 
