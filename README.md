@@ -1,4 +1,4 @@
-# Image classification model deployed on GCP
+# Image classification model deployed on kubernetes
 The detail steps are
 
     1.Create a streamlit app -python file.
